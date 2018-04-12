@@ -23127,13 +23127,6 @@ Source: www.kingbright.com</description>
 <junction x="40.64" y="-78.74"/>
 </segment>
 </net>
-<net name="VCC_MOTOR" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="VCC2"/>
-<wire x1="-20.32" y1="-88.9" x2="-10.16" y2="-88.9" width="0.1524" layer="91"/>
-<label x="-20.32" y="-88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="BATTERY_VCC" class="0">
 <segment>
 <pinref part="BATTERY" gate="G$1" pin="1"/>
@@ -23176,6 +23169,11 @@ Source: www.kingbright.com</description>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="-7.62" y1="0" x2="-15.24" y2="0" width="0.1524" layer="91"/>
 <junction x="-15.24" y="0"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="VCC2"/>
+<wire x1="-20.32" y1="-88.9" x2="-10.16" y2="-88.9" width="0.1524" layer="91"/>
+<label x="-20.32" y="-88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VCC_BLUETOOTH" class="0">

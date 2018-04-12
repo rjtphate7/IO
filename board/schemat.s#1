@@ -22708,8 +22708,8 @@ Source: www.kingbright.com</description>
 <instance part="GND5" gate="1" x="30.48" y="-73.66" rot="R90"/>
 <instance part="GND6" gate="1" x="-22.86" y="-68.58" rot="R270"/>
 <instance part="GND7" gate="1" x="-22.86" y="-73.66" rot="R270"/>
-<instance part="SUPPLY5" gate="G$1" x="-22.86" y="-53.34" rot="R90"/>
-<instance part="SUPPLY6" gate="G$1" x="27.94" y="-53.34" rot="R270"/>
+<instance part="SUPPLY5" gate="G$1" x="-20.32" y="-50.8"/>
+<instance part="SUPPLY6" gate="G$1" x="27.94" y="-50.8"/>
 <instance part="SUPPLY7" gate="G$1" x="27.94" y="-88.9" rot="R270"/>
 <instance part="MOTORLEFT" gate="G$1" x="-48.26" y="-68.58" rot="R180"/>
 <instance part="MOTORRIGHT" gate="G$1" x="53.34" y="-71.12"/>
@@ -22921,7 +22921,7 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VCC1"/>
 <pinref part="SUPPLY6" gate="G$1" pin="VCC"/>
-<wire x1="20.32" y1="-53.34" x2="25.4" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-53.34" x2="27.94" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="3-4EN"/>
