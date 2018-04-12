@@ -4,3 +4,5 @@
 *.hex
 *.elf
 *.pdf
+*.pro
+*.job
